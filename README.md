@@ -11,11 +11,9 @@
 
 📁 Project Structure
 📦 movie-recommendation-system/
- ┣ 📜 app.py                # Streamlit app main file
- ┣ 📜 recommender.py        # Logic for recommendations
- ┣ 📜 utils.py              # Helper functions
- ┣ 📜 movies.csv            # Cleaned dataset
- ┣ 📜 requirements.txt      # Python dependencies
+ ┣ 📜 app.py                # Flask app main file
+ ┣ 📜Content Based NRC.ipynb # Implements content-based recommendation
+ ┣ 📜 netflix_titles.csv    # Cleaned dataset
  ┗ 📜 README.md             # Project documentation
 
  💡 How It Works
@@ -24,4 +22,4 @@
 2. Text Vectorization: Apply TF-IDF to convert text to vectors.
 3. Similarity Score: Use Cosine Similarity to find similar movies.
 4. User Input: User types a movie keyword or title.
-5. Output: Top 5 similar movies are displayed.
+5. Output: Top 10 similar movies are displayed.
